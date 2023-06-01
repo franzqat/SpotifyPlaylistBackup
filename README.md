@@ -63,6 +63,14 @@ Something like `https://open.spotify.com/playlist/1234567abcdefg`. In this case:
 
 5. Check the destination playlist in your Spotify account to verify the copied songs.
 
+## Notes 
+
+🔒 Security Notice: Project Scanned with Trivy
+
+This project has undergone a security scan using Trivy, a vulnerability scanner for container images and systems. Trivy helps identify potential security issues and vulnerabilities within the project dependencies.
+
+The scan was performed to ensure that known vulnerabilities are addressed and to promote the usage of secure and up-to-date packages. However, please note that the scan does not guarantee the absence of all security risks.
+
 ## Contributing
 
 Contributions to this project are welcome! Feel free to open issues or submit pull requests for any improvements or bug fixes.
