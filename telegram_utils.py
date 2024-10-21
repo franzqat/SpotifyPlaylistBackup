@@ -1,3 +1,4 @@
+import logging
 from telegram import Bot, TelegramError
 
 
@@ -9,11 +10,14 @@ def create_telegram_message(copied_songs):
     return message
 
 
+logger = logging.getLogger(__name__)
+
+
 async def send_telegram_message(telegram_token, chat_id, message):
     """Send a message to the Telegram bot."""
     bot = Bot(token=telegram_token)
     try:
         await bot.send_message(chat_id=chat_id, text=message)
+        logger.info("Message sent successfully")
     except TelegramError as e:
-        # Handle specific Telegram errors
-        print(f"Failed to send message: {e}")
+        logger.error(f"Failed to send message: {e}")
