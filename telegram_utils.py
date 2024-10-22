@@ -1,5 +1,6 @@
 import logging
-from telegram import Bot, TelegramError
+from telegram import Bot
+from telegram.error import TelegramError
 
 
 def create_telegram_message(copied_songs):
