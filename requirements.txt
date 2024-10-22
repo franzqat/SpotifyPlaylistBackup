@@ -3,7 +3,7 @@ async-timeout==4.0.2
 certifi==2023.5.7
 chardet==5.2.0
 charset-normalizer==3.1.0
-exceptiongroup==1.1.1
+exceptiongroup==1.2.2
 h11==0.14.0
 httpcore==1.0.6
 httpx==0.24.1
