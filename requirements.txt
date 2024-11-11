@@ -1,5 +1,5 @@
 anyio==4.5.2
-async-timeout==4.0.3
+async-timeout==5.0.1
 certifi==2024.8.30
 charset-normalizer==3.4.0
 exceptiongroup==1.2.2
